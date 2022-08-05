@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import { Routes, Route, Link } from "react-router-dom";
 import OrderReview from './components/OrderReview/OrderReview';
+import Grandpa from './components/Grandpa/Grandpa';
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/orderreview" element={<OrderReview></OrderReview>}></Route>
+        <Route path="/grnadpa" element={<Grandpa></Grandpa>}> </Route>
       </Routes>
-    </div>
+    </div >
   );
 }
 
